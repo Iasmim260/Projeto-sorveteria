@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria Delicia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho-principal">
+        <div class="logo">
+            <h1>Sorveteria</h1>
+        </div>
+
+        <nav>
+
+            <ul class="menu-navegacao">
+                <li><a href="index.html" class="link-inicial">Início</a></li>
+                <li><a href="login.html">Entrar</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main class="conteudo">
+        <section class="secao-principal">
+            <h2>Espaço para tomar um sorvete e ter boas conversas</h2>
+            <p>Somos um ponto de encontro para quem deseja se refrescar, e tomar diversos 
+                sabores de sorvete com qualidade.
+            </p>
+            <a href="#">
+                Entre em contato com a gente!
+            </a>
+        </section>
+
+        <section class="secao-catalogo">
+             <div class="titulo-catalogo">
+                <h2 class="h2">Destaque da Semana</h2>
+                <p>Preparado na hora</p>
+            </div>
+
+            <div class="grade">
+                <article class="card">
+                    <img src="casquinha.jpg" alt="caquinha">
+                    <div class="dados-intem">
+                        <span class="etiqueta">Sorvete</span>
+                        <h4>Casquinha</h4>
+                        <p>Uma casquinha com sabores de chocolate, baunilha e misto.</p>
+                        <label for="casquinha">Escolha sabor:</label>
+
+            <select id="saborcasquinha" name="sabores">
+            <option value="baunilha">Baunilha</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Misto">Misto</option>
+            </select>
+                <br>
+                        <strong>R$ 4,50</strong>
+                    </div>
+                </article>
+
+
+                <article class="card">
+                    <img src="casquinha.jpg" alt="cascão">
+                    <div class="dados-intem">
+                        <span class="etiqueta">Sorvete</span>
+                        <h4>Cascão</h4>
+                        <p>Um cascão com sabores de chocolate, baunilha e misto.</p>
+                        <label for="cascão">Escolha sabor:</label>
+
+            <select id="saborcasquinha" name="sabores">
+            <option value="baunilha">Baunilha</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Misto">Misto</option>
+            </select>
+                <br>
+                        <strong>R$ 7,00</strong>
+                    </div>
+                </article>
+
+
+                <article class="card">
+                    <img src="acai.jpg" alt="Açai com diversos complementos">
+                    <div class="dados-intem">
+                        <span class="etiqueta">Açaí</span>
+                        <h4>Açaí natural</h4>
+                        <p>Açaí natural, com diversos complementos de extrema qualidade</p>
+                        <strong>R$ 46,80KG</strong>
+
+                        <br>
+
+                       <strong>Escolha complementos:</strong>
+
+                       <br>
+
+                        <label>
+                        <input type="checkbox" name="sabor" value="cereja">Cereja</label> <br>
+                        <label><input type="checkbox" name="sabor" value="gota">Gotas de Chocolate</label><br>
+                        <label> <input type="checkbox" name="sabor" value="calda">Calda de cookie branco</label> <br>
+                        <label> <input type="checkbox" name="sabor" value="calda">Calda de cookie ao leite</label> <br>
+                        <label> <input type="checkbox" name="sabor" value="mm">M&M</label> <br>
+                        <label> <input type="checkbox" name="sabor" value="granola">Granola</label> <br>
+                        <label> <input type="checkbox" name="sabor" value="leite">Leite condensado</label> <br>
+                        <label> <input type="checkbox" name="sabor" value="nutela">Nutela</label> <br>
+                        <label> <input type="checkbox" name="sabor" value="po">Leite em pó</label> <br>
+                        <label> <input type="checkbox" name="sabor"alue="Paçoca">Paçoca</label> <br>
+                        <label> <input type="checkbox" name="sabor" value="bombom">Bombom picado</label> <br>
+                        <label> <input type="checkbox" name="sabor" value="fini">Fini</label> <br>
+                        <label><input type="checkbox" name="acompanhamento" value="banana"> Banana</label><br>
+                        <label><input type="checkbox" name="acompanhamento" value="morango">Morango</label><br>
+                        <label><input type="checkbox" name="acompanhamento" value="uva">Uva</label><br>
+                        <label><input type="checkbox" name="acompanhamento" value="manga"> Manga</label><br>
+                        <label> <input type="checkbox" name="acompanhamento" value="coco"> Coco ralado</label><br>
+                        <label><input type="checkbox" name="acompanhamento" value="castanha"> Castanha</label><br>
+
+
+                </article>
+
+                <article class="card">
+                    <img src="milkshake.jpg" alt="Milk-Shake">
+                    <div class="dados-intem">
+                        <span class="etiqueta">Milk-Shake</span>
+                        <h4>Milk-Shake</h4>
+                        <p>Um milk shake cremoso de acordo com seu gosto e sabor de preferência.</p>
+                         <label for="tamanho">Escolha o tamanho:</label>
+                         <br>
+
+                          <strong>Sabores comuns:</strong>
+
+            <select id="tamanho" name="tamanho">
+            <option value="P">300 ml — R$ 12,00</option>
+            <option value="M">400 ml — R$ 14,00</option>
+            <option value="G">500 ml — R$ 16,00</option>
+            <option value="GG">700 ml — R$ 18,00</option>
+            <br> </select>
+
+            <strong>Selecionar sabor:</strong>
+            <br>
+<label><input type="radio" name="sabor" value="chocolate"> Chocolate</label><br>
+<label><input type="radio" name="sabor" value="morango"> Morango</label><br>
+<label><input type="radio" name="sabor" value="baunilha"> Baunilha</label><br>
+<label><input type="radio" name="sabor" value="chocolate-branco"> Chocolate Branco</label><br>
+<label><input type="radio" name="sabor" value="chocolate-amargo"> Chocolate Amargo</label><br>
+<label><input type="radio" name="sabor" value="flocos"> Flocos</label><br>
+<label><input type="radio" name="sabor" value="napolitano"> Napolitano</label><br>
+<label><input type="radio" name="sabor" value="creme"> Creme</label><br>
+<label><input type="radio" name="sabor" value="coco"> Coco</label><br>
+<label><input type="radio" name="sabor" value="coco-queimado"> Coco Queimado</label><br>
+<label><input type="radio" name="sabor" value="abacaxi"> Abacaxi</label><br>
+<label><input type="radio" name="sabor" value="maracuja"> Maracujá</label><br>
+<label><input type="radio" name="sabor" value="frutas-vermelhas"> Frutas Vermelhas</label><br>
+<label><input type="radio" name="sabor" value="cereja"> Cereja</label><br>
+<label><input type="radio" name="sabor" value="menta"> Menta</label><br>
+<label><input type="radio" name="sabor" value="menta-chocolate"> Menta com Chocolate</label><br>
+
+
+
+           
+                       
+                </article>
+<article class="card">
+                    <img src="milkshake.jpg" alt="Milk-Shake">
+                    <div class="dados-intem">
+                        <span class="etiqueta">Milk-Shake</span>
+                        <h4>Milk-Shake</h4>
+                        <p>Um milk shake cremoso de acordo com seu gosto e sabor de preferência.</p>
+                         <label for="tamanho">Escolha o tamanho:</label>
+                         <br>
+
+                          <strong>Sabores especiais:</strong>
+
+            <select id="tamanho" name="tamanho">
+            <option value="P">300 ml — R$ 14,00</option>
+            <option value="M">400 ml — R$ 16,00</option>
+            <option value="G">500 ml — R$ 18,00</option>
+            <option value="GG">700 ml — R$ 20,00</option>
+            <br> </select>
+
+            <strong>Selecionar sabor:</strong>
+            <br>
+            <label><input type="radio" name="sabor" value="oreo"> Oreo</label><br>
+<label><input type="radio" name="sabor" value="ovomaltine"> Ovomaltine</label><br>
+<label><input type="radio" name="sabor" value="nutella"> Nutella</label><br>
+<label><input type="radio" name="sabor" value="ninho"> Leite Ninho</label><br>
+<label><input type="radio" name="sabor" value="ninho-com-nutella"> Ninho com Nutella</label><br>
+<label><input type="radio" name="sabor" value="pacoca"> Paçoca</label><br>
+<label><input type="radio" name="sabor" value="amendoim"> Amendoim</label><br>
+<label><input type="radio" name="sabor" value="doce-de-leite"> Doce de Leite</label><br>
+<label><input type="radio" name="sabor" value="caramelo"> Caramelo</label><br>
+<label><input type="radio" name="sabor" value="cafe"> Café</label><br>
+<label><input type="radio" name="sabor" value="capuccino"> Cappuccino</label><br>
+<label><input type="radio" name="sabor" value="morango-com-chocolate"> Morango com Chocolate</label><br>
+<label><input type="radio" name="sabor" value="banana-com-chocolate"> Banana com Chocolate</label><br>
+<label><input type="radio" name="sabor" value="prestigio"> Prestígio</label><br>
+<label><input type="radio" name="sabor" value="sonho-de-valsa"> Sonho de Valsa</label><br>
+<label><input type="radio" name="sabor" value="bis"> Bis</label><br>
+<label><input type="radio" name="sabor" value="kit-kat"> Kit Kat</label><br>
+<label><input type="radio" name="sabor" value="mm"> M&M's</label><br>
+<label><input type="radio" name="sabor" value="cookies"> Cookies</label><br>
+<label><input type="radio" name="sabor" value="churros"> Churros</label><br>
+
+        </section>
+
+        <section class="secao-info">
+            <div class="bloco">
+                <h3>Onde estamos:</h3>
+                <p>Rua José de Queiroz Sampaio,, N°3, Centro, Boa Viagem, Ceará.</p>
+                <p><small>(Ao lado do Colégio Dom Terceiro)</small></p>
+            </div>
+            <br>
+
+            <div class="hora">
+                <h3>Horário de funcionamento:</h3>
+                <p><strong>Terça à Sexta.</strong>14:30 às 23:30</p>
+                <p><strong>Sábado e Domingo: </strong> 16:00 às 00:00</p>
+                <p><strong>Folgamos às Segunda feira</strong></p>
+
+            </div>
+
+            <div class="bloco">
+                <h3>Estrutura:</h3>
+                <p>Wi-Fi Liberado</p>
+            </div>
+
+        </section>
+
+       
+    </main>
+
+    <footer class="rodape">
+        <p>&copy 2026 Sorveteria Delicia</p>
+        <p>Desenvolvido por: <a href="portifolio.html" target="_blank" rel="noopener moreferrer">Iasmim</a></p>
+    </footer>
+    
+</body>
+</html>
